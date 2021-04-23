@@ -3,9 +3,12 @@ body {
 }
 body ul {
     background-color: grey;
-
+    margin: auto;
+    width: 50%;
+    padding: 0;
 }
 body ul li {
+    margin: auto;
     align-items: center;
     justify-content: center;
     height: 400px;
@@ -26,8 +29,8 @@ body ul li img {
 
 @keyframes traffic {
     0% {background: red;}
-    47% {background: red;}
-    48%{background: black;}
+    46% {background: red;}
+    47%{background: black;}
     100%{background: black;}
 }
 @keyframes traffic1 {
