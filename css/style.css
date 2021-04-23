@@ -1,34 +1,46 @@
 body {
     background-color:sandybrown ;
 }
+body ul {
+    background-color: grey;
+
+}
 body ul li {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    align-content: center;
     width: 30%;
     display: flex;
     flex-flow: column wrap;
     border-radius: 50%;
 }
 body ul li img {
-    height: 400px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    align-content: center;
+    height: 350px;
     opacity: 50%;
 }
 
 @keyframes traffic {
     0% {background: red;}
-    32% {background: red;}
-    34%{background: black;}
+    47% {background: red;}
+    48%{background: black;}
     100%{background: black;}
 }
 @keyframes traffic1 {
     0% {background: black;}
-    33% {background: black;}
-    34%{background: yellow;}
-    66%{background: yellow;}
+    43% {background: black;}
+    44%{background: yellow;}
+   50%{background: yellow;}
     67%{background: black;}
 }
 @keyframes traffic2 {
     0% {background: black;}
-    66% {background: black;}
-    67%{background: green;}
+    49% {background: black;}
+    50%{background: green;}
     100%{background: green;}
 }
 .container li:nth-of-type(1) {
